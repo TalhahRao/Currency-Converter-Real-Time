@@ -1,0 +1,31 @@
+
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+.select-container img{
+    max-width: 2rem;
+}
+
+.select-container{
+    display: flex;
+    justify-content: center;
+    width: 6rem;
+    align-items: center;
+    background-color: bisque;
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+    padding: 0.2rem 0.5rem;
+    border: 1px solid lightgray;
+}
+.select-container select{
+    font-size: 1rem;
+    border: none;
+    background-color: bisque;
+    width: auto;
+}
+.msg{
+    margin: 2rem 0 2rem 0;
+}
