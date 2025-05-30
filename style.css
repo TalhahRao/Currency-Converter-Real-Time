@@ -80,7 +80,7 @@ button {
   font-size: 1.1rem;
   font-weight: 600;
   box-shadow: 0 8px 20px rgba(175, 77, 152, 0.4);
-  transition: all 0.4s ease-in-out; /* Keep for non-GSAP transitions */
+  transition: all 0.4s ease-in-out;
 }  
 .bg-purple {
   background: linear-gradient(135deg, #af4d98, #761133);
@@ -95,7 +95,6 @@ button {
 }
 .small{
   font-size: 4px;
-  /* margin: 0; */
   padding: 0;
   font-weight: 100;
 }
