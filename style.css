@@ -3,7 +3,6 @@ body {
   background: linear-gradient(135deg, #2b0f3a, #5a084d, #4e1467, #761133);
   min-height: 100vh;
 }
-
 .main-box {
   background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(10px);
@@ -11,18 +10,15 @@ body {
   color: white;
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
-
 .select-container img {
   max-width: 1.6rem;
 }
-
 .dropdown {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 2rem;
 }
-
 .select-container {
   display: flex;
   align-items: center;
@@ -38,7 +34,6 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   overflow: hidden;
 }
-
 .select-container::after {
   content: "▾";
   position: absolute;
@@ -49,7 +44,6 @@ body {
   pointer-events: none;
   font-size: 1rem;
 }
-
 .select-container select {
   font-size: 1rem;
   border: none;
@@ -61,7 +55,6 @@ body {
   appearance: none;
   padding-right: 1.5rem;
 }
-
 .msg {
   margin: 2rem 0 2rem 0;
 }
@@ -70,7 +63,6 @@ select option {
   background-color: #5a084d;
   color: white;
 }
-
 button {
   background: linear-gradient(135deg, #af4d98, #761133);
   color: white;
@@ -113,13 +105,11 @@ button {
 .select-container img{
     max-width: 2rem;
 }
-
 .select-container{
     display: flex;
     justify-content: center;
     width: 7rem;
     align-items: center;
-    background-color: bisque;
     border-radius: 0.5rem;
     margin-top: 0.5rem;
     padding: 0.4rem 2.5rem;
