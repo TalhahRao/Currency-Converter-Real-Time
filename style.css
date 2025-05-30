@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   background: linear-gradient(135deg, #2b0f3a, #5a084d, #4e1467, #761133);
   min-height: 100vh;
@@ -98,3 +99,36 @@ button {
   background: linear-gradient(135deg, #c66db1, #8a1b54);
   box-shadow: 0 10px 25px rgba(175, 77, 152, 0.6);
 }
+=======
+
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+.select-container img{
+    max-width: 2rem;
+}
+
+.select-container{
+    display: flex;
+    justify-content: center;
+    width: 6rem;
+    align-items: center;
+    background-color: bisque;
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+    padding: 0.2rem 0.5rem;
+    border: 1px solid lightgray;
+}
+.select-container select{
+    font-size: 1rem;
+    border: none;
+    background-color: bisque;
+    width: auto;
+}
+.msg{
+    margin: 2rem 0 2rem 0;
+}
+>>>>>>> 17fbc8eecc7be72f7a3c4034352c1726877bad34
