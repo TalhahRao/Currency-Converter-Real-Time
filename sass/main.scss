@@ -1,7 +1,6 @@
 
 @import "../node_modules/bootstrap/scss/functions";
 @import "../node_modules/bootstrap/scss/variables";
-
 $custom-spacers: (
   6: 4rem,
   7: 5rem,
@@ -17,23 +16,13 @@ $custom-spacers: (
   26: 24rem,
   27: 25rem
 );
-
-
 $spacers: map-merge($spacers, $custom-spacers);
-
-
 $custom-theme-colors: (
-<<<<<<< HEAD
-=======
-    "bodyy": #f4e4ba,
->>>>>>> 17fbc8eecc7be72f7a3c4034352c1726877bad34
     "lite": #858584,
     "gray": #CCCCCC,
     "purple": #af4d98,
 );   
- 
 $theme-colors: map-merge($theme-colors, $custom-theme-colors);
-
 $font-sizes: (
   1: 2.5rem,  // Default: 2.5rem
   2: 2rem, // Default: 2rem
@@ -43,13 +32,6 @@ $font-sizes: (
   6: 1rem
 );
 $custom-font-sizes: (
-
 );
-
 $font-sizes: map-merge($font-sizes, $custom-font-sizes);
-
-// Bootstrap ko import karo
 @import "../node_modules/bootstrap/scss/bootstrap";
-
-
-
