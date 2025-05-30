@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Real Time Currency Converter</title>
+    <link rel="stylesheet" href="css/main.min.css" />
+    <link rel="stylesheet" href="sass/main.scss" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <!-- GSAP CDN -->
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  </head>
+  <body class="bg-bodyy">
+    <div class="container mt-md-4 mt-sm-3 mt-5">
+      <div class="row justify-content-center">
+        <div class="col-sm-8 col-11 main-box py-4 px-sm-5 px-2 rounded-4 text-center">
+          <h2 class="fw-bold pt-sm-4 pt-2">Currency Converter</h2>
+          <form class="mt-sm-4 mt-3">
+            <div class="amount">
+              <p class="text-start mt-sm-4 mt-2 mb-2">Enter Amount</p>
+              <input value="1" type="text" class="w-100 rounded-3 py-2 ps-3 border-1 border-gray amount-input" />
+            </div>
+            <div class="dropdown">
+              <div class="from">
+                <p class="text-start fw-bold">From</p>
+                <div class="select-container">
+                  <img src="https://flagsapi.com/US/flat/64.png" alt="" />
+                  <select name="from" class="from-select"></select>
+                </div>
+              </div>
+              <i class="fa-solid fa-arrow-right-arrow-left fw-bold fs-3 mt-4 exchange-icon"></i>
+              <div class="to">
+                <p class="text-start fw-bold">To</p>
+                <div class="select-container">
+                  <img src="https://flagsapi.com/PK/flat/64.png" alt="" />
+                  <select name="to" class="to-select"></select>
+                </div>
+              </div>
+            </div>
+            <div class="msg fs-5 fw-bold exchange-msg">Getting Exchange Rate...</div>
+            <button class="w-75 bg-purple text-white py-2 rounded-pill border border-1 convert-btnn">Get Exchange Rate</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="codes.js"></script>
+    <script src="gsap.js" ></script>
+    <script src="script.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

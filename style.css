@@ -1,0 +1,100 @@
+body {
+  background: linear-gradient(135deg, #2b0f3a, #5a084d, #4e1467, #761133);
+  min-height: 100vh;
+}
+
+.main-box {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.select-container img {
+  max-width: 1.6rem;
+}
+
+.dropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.select-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 7rem;
+  background: linear-gradient(135deg, #5a084d, #761133);
+  border-radius: 0.7rem;
+  margin-top: 0.5rem;
+  padding: 0.4rem 0.4rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.select-container::after {
+  content: "▾";
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  pointer-events: none;
+  font-size: 1rem;
+}
+
+.select-container select {
+  font-size: 1rem;
+  border: none;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  width: 100%;
+  padding-left: 5px;
+  appearance: none;
+  padding-right: 1.5rem;
+}
+
+.msg {
+  margin: 2rem 0 2rem 0;
+}
+
+select option {
+  background-color: #5a084d;
+  color: white;
+}
+
+button {
+  background: linear-gradient(135deg, #af4d98, #761133);
+  color: white;
+  border: none;
+  border-radius: 999px;
+  padding: 0.7rem 1.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  box-shadow: 0 8px 20px rgba(175, 77, 152, 0.4);
+  transition: all 0.4s ease-in-out; /* Keep for non-GSAP transitions */
+}  
+.bg-purple {
+  background: linear-gradient(135deg, #af4d98, #761133);
+  color: white;
+  border: none;
+  border-radius: 999px;
+  padding: 0.7rem 1.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  box-shadow: 0 8px 20px rgba(175, 77, 152, 0.4);
+  transition: all 0.4s ease-in-out;
+}
+
+.bg-purple:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #c66db1, #8a1b54);
+  box-shadow: 0 10px 25px rgba(175, 77, 152, 0.6);
+}
